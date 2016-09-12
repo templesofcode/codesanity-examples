@@ -1,0 +1,30 @@
+{
+  "name": "templesofcode/codesanity-examples",
+  "description": "Scripts that demonstrate the usage of the codesanity library",
+  "keywords": ["sysops"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "OZ",
+      "email": "templesofcode@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/templesofcode/codesanity"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/templesofcode/sofa-php"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.4",
+    "templesofcode/codesanity": "dev-master",
+    "albertofem/rsync-lib": "dev-master",
+    "templesofcode/sofa-php": "dev-master"
+  }
+}
